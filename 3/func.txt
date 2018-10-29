@@ -1,0 +1,1 @@
+gcc -std=c99 -g -Wall -O3 -I/usr/X11/include  -o dia test.c imgops.c draw.c png.c -lm -lpng -L/usr/X11/lib -lX11 

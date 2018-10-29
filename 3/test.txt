@@ -1,0 +1,5 @@
+This is text
+line break is here
+multiple  spaces     her   e
+.,<>()}{punctuation,]{}<..
+end apo'strophe 15words 5lines 128chars

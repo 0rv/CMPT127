@@ -15,7 +15,18 @@ void draw_circle( uint8_t img[],
   
   for (int y = 0; y < rows; y++) {
     for (int x = 0; x < cols; x++) {
-      //TODO
+      //printf("circle of size %d\n", r);
+      for (int x = 0; x < 2*r, x++) {
+        //2r = number of rows/cols circle takes up
+        for (int y = 0; y < 2*r, y++) {
+          if (int(x*x + y*y) == r) {
+            printf("#");
+          } else {
+            printf(" ");
+          }
+        }
+        printf("/n");
+      }
     }
   }
   
